@@ -1,0 +1,22 @@
+.table {
+    border: solid 1px black;
+    min-width: 28vw;
+    height: 80vh;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table .ant-spin-nested-loading, .ant-spin-container, .ant-table-container, .ant-table-content {
+    height: 100%;
+    width: 100%;
+}
+
+.table .ant-table {
+    height: 90%;
+}
+
+.table__item_active {
+    background-color: #c2ffec;
+}

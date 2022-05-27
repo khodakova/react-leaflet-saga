@@ -1,0 +1,18 @@
+.Block{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#Resizable{
+    height: auto;
+    width: auto;
+    max-width: 55vw;
+}
+#Draggable{
+    background: rgba(255, 255, 255, 0);
+    cursor: col-resize;
+    height: 100%;
+    width: 5px;
+    z-index: 10000;
+}
