@@ -7,8 +7,8 @@ import {
 
 export interface IApplication {
     id: number,
-    title: string,
-    text: string,
+    number: number,
+    customer: string,
     point1: number,
     point2: number
 }
